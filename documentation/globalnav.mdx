@@ -1,0 +1,97 @@
+---
+name: Globalnav
+menu: Navigation
+route: /navigation/globalnav
+---
+
+import { Playground, PropsTable } from 'docz'
+import Globalnav from '../components/Globalnav/index'
+
+# Globalnav
+
+### Dark
+
+<Playground>
+  <Globalnav container="lg">
+    <div>
+      <a>Home</a>
+    </div>
+    <div>
+      <a>Blog</a>
+    </div>
+    <div>
+        <a>Work</a>
+      </div>
+    <div>
+      <a>About</a>
+    </div>
+  </Globalnav>
+</Playground>
+
+### Dark - left menu
+
+<Playground>
+  <Globalnav container="lg" menu="left">
+    <div>
+      <a>Toggle</a>
+    </div>
+    <div>
+      <div>
+        <a>Logo</a>
+      </div>
+      <div>
+        <a>Blog</a>
+      </div>
+      <div>
+        <a>Work</a>
+      </div>
+      <div>
+        <a>About</a>
+      </div>
+    </div>
+  </Globalnav>
+</Playground>
+
+### Dark - right menu
+
+<Playground>
+  <Globalnav container="lg" menu="right">
+    <div>
+      <a>Logo</a>
+    </div>
+    <div>
+      <div>
+        <a>Blog</a>
+      </div>
+      <div>
+        <a>Work</a>
+      </div>
+      <div>
+        <a>About</a>
+      </div>
+    </div>
+  </Globalnav>
+</Playground>
+
+### Light
+
+<Playground>
+   <Globalnav theme="light">
+    <div>
+      <a>Home</a>
+    </div>
+    <div>
+      <a>Blog</a>
+    </div>
+    <div>
+        <a>Work</a>
+      </div>
+    <div>
+      <a>About</a>
+    </div>
+  </Globalnav>
+</Playground>
+
+### Globalnav
+
+<PropsTable of={Globalnav} />

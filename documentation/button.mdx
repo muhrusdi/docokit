@@ -1,0 +1,40 @@
+---
+name: Button
+route: /button
+---
+
+import { Playground, PropsTable } from 'docz'
+import Button from '../components/Button/index'
+import Col from '../components/Col/index'
+import Row from '../components/Row/index'
+
+# Button
+
+Hello, I'm a mdx file!
+
+<Playground>
+  <Row type="flex" gutter={10}>
+    <Col>
+      <Button onClick={() => 'test'}>Default</Button>
+    </Col>
+    <Col>
+      <Button type="primary">Primary</Button>
+    </Col>
+    <Col>
+      <Button type="success">Success</Button>
+    </Col>
+    <Col>
+      <Button type="danger">Danger</Button>
+    </Col>
+    <Col>
+      <Button type="warning">Warning</Button>
+    </Col>
+    <Col>
+      <Button type="dark">Dark</Button>
+    </Col>
+  </Row>
+</Playground>
+
+### Button
+
+<PropsTable of={Button} />

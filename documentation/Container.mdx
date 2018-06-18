@@ -1,0 +1,34 @@
+---
+name: Container
+route: /container
+---
+
+import { Playground, PropsTable } from 'docz'
+import Container from '../components/Container/index'
+import { styles } from '../stylesheets/styles'
+
+# Container
+
+### Container - 764px
+
+<Playground>
+  <div className={styles.container}>
+    <Container max="md" style={{background: '#d9e1e9'}}>
+      <div>container max-width: 764px</div>
+    </Container>
+  </div>
+</Playground>
+
+### Container - 576px
+
+<Playground>
+  <div className={styles.container}>
+    <Container max="sm" style={{background: '#d9e1e9'}}>
+      <div>container max-width: 576px</div>
+    </Container>
+  </div>
+</Playground>
+
+
+### Container
+<PropsTable of={Container} />
