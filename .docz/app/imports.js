@@ -9,4 +9,6 @@ export const imports = {
     import(/* webpackPrefetch: true, webpackChunkName: "documentation-grid" */ 'documentation/grid.mdx'),
   'documentation/index.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "documentation-index" */ 'documentation/index.mdx'),
+  'documentation/spinner.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "documentation-spinner" */ 'documentation/spinner.mdx'),
 }
